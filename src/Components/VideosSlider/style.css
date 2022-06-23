@@ -1,0 +1,82 @@
+
+.serialVds{
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+}
+.headingSrie{
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+}
+.mrBtn{
+    border-radius: 0px;
+    font-weight: 500;
+    width: 180px;
+    padding: 10px;
+    background-color: red;
+}
+.carousel__multy__main{
+    height: 250px;
+}
+.slider__item__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+
+}
+.slider__item{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sli__image__scale{
+    height: 100%;
+    width: 100%;
+    transition: all .3s ease;
+}
+.slider__item:hover .sli__image__scale{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.slider__absCard{
+    position: absolute;
+    color: white;
+    padding:5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.playButtonT{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    color: red;
+    font-size: 3.5rem;
+    top:40%;
+    left:40%;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: all .3s ease;
+}
+.playButtonT:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.buttonsuserAct{
+    transition: all .3s ease;
+}
+.buttonsuserAct:hover{
+    transition: all .3s ease;
+    color: red;
+    cursor: pointer;
+}
